@@ -12,7 +12,7 @@ public class StringPalindrome {
 		System.out.println(isPalindrome(str));
 	}
 
-	private static String isPalindrome(String str) {
+	public static String isPalindrome(String str) {
 		String s = "";
 		for (int i = str.length() - 1; i >= 0; i--)
 			s += str.charAt(i);
