@@ -15,7 +15,7 @@ public class ReverseString {
 	}
 	
 	// Reverse String using String Buffer Method
-	private static String reverseString1(String word) {
+	public static String reverseString1(String word) {
 		StringBuffer sb = new StringBuffer(word);
 		sb.reverse();
 		String s = new String(sb);
@@ -23,7 +23,7 @@ public class ReverseString {
 	}
 
 	// Reverse String using Char Array
-	private static String reverseString2(String word) {
+	public static String reverseString2(String word) {
 		char[] ch = word.toCharArray();
 		int j =0;
 		for(int i = word.length()-1;i>=0;i--)
@@ -32,7 +32,7 @@ public class ReverseString {
 	}
 
 	// Reverse String using another String
-	private static String reverseString3(String word) {
+	public static String reverseString3(String word) {
 		String s = "";
 		for (int i = word.length() - 1; i >= 0; i--)
 			s += word.charAt(i);
