@@ -7,8 +7,9 @@ public class RemoveDuplicateWords {
 	static Scanner sc = new Scanner(System.in);
 
 	public static void main(String[] args) {
+		System.out.println("Enter Any Word");
 		String word = sc.next();
-		System.out.println(removeDuplicates(word));
+		System.out.println("After Removing Duplicat Words :"+removeDuplicates(word));
 	}
 
 	public static String removeDuplicates(String word) {
