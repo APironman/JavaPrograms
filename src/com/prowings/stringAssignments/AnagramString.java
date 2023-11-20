@@ -26,5 +26,4 @@ public class AnagramString {
 		s2 = s2.replaceAll("[ ,-.]", "");
 		return s1.equals(s2) ? "String is Anagram" : "String is not Anagram";
 	}
-
 }
